@@ -1,6 +1,6 @@
 ### VD | LED - LTD | UTDT
 
-# Template Scrollytelling con Flourish
+# Template Scrollytelling con Flourish (Svelte)
 
 ## Ejemplo Selección Argentina Qatar 2022
 
