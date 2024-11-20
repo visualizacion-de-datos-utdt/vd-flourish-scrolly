@@ -2,7 +2,7 @@
   // Función para inicializar el componente de Flourish y tomar el script que nos permite hacer el scrolly gratis!
   import { onMount } from 'svelte';
 
-  // Array para guardar la data de cada slide
+  // Array para guardar la data de cada slide. Cambiar cada uno con el epígrafe específico para cada slide.
   const slides = [
     "Texto slide 1. Fusce quis augue et tortor interdum bibendum. Nam dolor elit",
     "Texto slide 2. Fusce quis augue et tortor interdum bibendum. Nam dolor elit",
@@ -58,7 +58,9 @@
 
 <!-- Contenedor de la story de flourish (scrolly)-->
 <div id="my-wrapper">
+  <!-- Reemplazar el ID de jeemplo por el de la story propia -->
   <div class="flourish-embed" data-src="story/2041907" data-url="https://flo.uri.sh/story/2041907/embed" data-height="100vh">
+    
     <!-- <script src="https://public.flourish.studio/resources/embed.js"></script> -->
   </div>
 
