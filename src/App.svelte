@@ -67,7 +67,7 @@
   <!-- Iteramos sobre las distintas slides del componente de Flourish -->
   {#each slides as slide, index}
     <p>
-      {slide}
+      {@html slide}
       <!-- svelte-ignore a11y-missing-content -->
       <a href={"#story/2041907/slide-" + (index + 1)}></a>
     </p>
